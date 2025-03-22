@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perfil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <header class="text-center mb-4 animate__animated animate__fadeInDown">
+            <img src="https://i.imgur.com/aEuhaiU.jpeg" alt="Foto de Perfil" class="rounded-circle mb-3">
+            <h1>Fernando Lima</h1>
+            <p>Emaill: fernandolim@contato.com</p>
+            <p class="bio">Recrutador com mais de 8 anos de experiência no setor de Recursos Humanos. </p>
+            <p>Especialista em identificar talentos e conectar pessoas às oportunidades certas.</p>
+        </header>
+
+        <section class="animate__animated animate__fadeInUp">
+            <h2>Atividades Recentes</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Atividade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>22/06/2023</td>
+                        <td>Workshop sobre desenvolvimento web</td>
+                    </tr>
+                    <tr>
+                        <td>02/10/2023</td>
+                        <td>Concluiu um curso online de JavaScript.</td>
+                    </tr>
+                    <tr>
+                        <td>15/11/2023</td>
+                        <td>Publicou um artigo sobre boas práticas em programação</td>
+                    </tr>
+                    <tr>
+                        <td>04/03/2024</td>
+                        <td>Participou de um hackathon e ganhou o segundo lugar.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="mt-5 animate__animated animate__fadeInUp">
+            <h2>Contato</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
